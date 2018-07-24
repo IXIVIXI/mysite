@@ -1,0 +1,162 @@
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/topography.png);
+}
+
+
+header, footer, .main
+{
+    border: 13px black;
+    width: 1224px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius:13px;
+    color: black;
+}
+
+header
+{
+    height: 70px;
+    background-color: #faf6d7;
+}
+
+.logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-main
+{
+    width: 750px;
+    margin-left: auto;
+}
+
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top:0px; /*делаем отступ сверху*/
+}
+.aa {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background:#b3966f; /*добавляем фон к пункту меню*/
+    color: honeydew; /*меняем цвет ссылок*/
+    padding:15px; /*добавляем отступ*/
+    font-family: Arial; /*меняем шрифт*/
+    border-radius:6px; /*добавляем скругление*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+.aa:hover {
+    background:#dec6a9;/*добавляем эффект при наведении*/
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color: #787457; /*меняем цвет ссылок*/
+}
+li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    margin-right:10px; /*Добавляем отступ у пунктов меню*/
+}
+
+.main
+{
+    height: 800px;
+    background: url(/img/tuman.jpg);
+}
+.sidebar
+{
+    background: linear-gradient(45deg, #c2b56b, #e8e3be), #e3dcaf;
+    width: 260px;
+    height: 777px;
+    float: left;
+    border-radius:13px
+}
+
+.d3 form
+{
+    background: #c2ae88;
+    border-radius: 13px 13px 0 0;
+}
+.d3 input, .d3 button
+{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.d3 input
+{
+    width: 82%;
+    height: 42px;
+    padding-left: 15px;
+}
+.d3 button
+{
+    height: 42px;
+    width: 16%;
+    cursor: pointer;
+}
+
+.d3 button:before
+{
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #4b523c;
+}
+
+.filter-list
+{
+    color: #4b523c;
+}
+
+footer
+{
+    height: 60px;
+    color: #607A74;
+    background: linear-gradient(45deg, #ccc78d, #cfa770);
+}
+
+.forma_add_resourses label, .forma_add_resourses input
+{
+    display: block;
+    color: ghostwhite;
+}
+
+.contacts
+{
+    color: #6b3a20;
+    text-align: center;
+    font-family: Luminari, fantasy;
+}
+
+#submit
+{
+    color: #6b3a20;
+}
+
+.copyright
+{
+    color: #607A74;
+    margin-left: 87%;
+}
+
+.filter-list
+{
+    padding: 5px;
+}
+
+.error-msg
+{
+    color: red;
+}
+
+.success-msg
+{
+    color: green;
+}
+
